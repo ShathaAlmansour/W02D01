@@ -60,7 +60,20 @@ const updateValue = function (array, index, value) {
     }
   };
 
+const onlyString = function (array) {
+    let n=[];
+    for(let i = 0; i < array.length; i++){
+        if (typeof array[i] == "string"){
+            n.push(array[i]); }}
+    return n };
 
+    
+
+
+
+
+
+  
   
 
   
