@@ -42,7 +42,25 @@ const includeOf = function (string, character) {
 
 
 
+const addToArray = function (array, string) {
+    array.push(string);
+    return array;
+  };
+
+const convertToString = function (array) {
+    return array.join();
+};
+  
+const updateValue = function (array, index, value) {
+    if (array.length < index) {
+      return "there is no element to updated in this index";
+    } else {
+      array[index] = value;
+      return array;
+    }
+  };
 
 
+  
 
-
+  
